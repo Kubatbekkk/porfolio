@@ -101,4 +101,9 @@
       display: none;
     }
   }
+
+  @media screen and (max-width: 740px) {
+    padding: 0 20px;
+    width: calc(100vw - 60px);
+  }
 }

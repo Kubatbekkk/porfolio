@@ -1,9 +1,12 @@
 import './style.scss'
+import { usePopMenuStore } from '../../../hooks/pop-up-state'
 
 const Header = () => {
+  const { showPopMenu } = usePopMenuStore()
+
   return (
     <header className='header'>
-      <button className="header__menu" />
+      <button className="header__menu" onClick={showPopMenu} />
       <nav className="header__left">
         <ul className="header__links">
           <li className="header__link">
