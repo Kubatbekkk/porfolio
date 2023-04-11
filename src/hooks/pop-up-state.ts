@@ -7,7 +7,7 @@ interface PopStore {
 }
 
 export const usePopMenuStore = create<PopStore>((set) => ({
-  isShowing: true,
+  isShowing: false,
   showPopMenu: () => set(() => ({isShowing: true})),
   hidePopMenu: () => set(() => ({isShowing: false})),
 }))
