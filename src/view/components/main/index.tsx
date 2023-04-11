@@ -1,8 +1,12 @@
 import './style.scss'
 import Top from '../top'
+import About from '../about'
 const Main = () => {
   return (
-    <Top />
+    <>
+      <Top />
+      <About />
+    </>
   )
 }
 
