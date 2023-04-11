@@ -1,8 +1,11 @@
 import './style.scss'
+import lang from '../../../data/lang'
+import { trans, useLangStore } from '../../../hooks/lang-state'
 import { usePopMenuStore } from '../../../hooks/pop-up-state'
 
 const Header = () => {
   const { showPopMenu } = usePopMenuStore()
+  const { lng, setRu, setEn } = useLangStore()
 
   return (
     <header className='header'>
@@ -10,31 +13,31 @@ const Header = () => {
       <nav className="header__left">
         <ul className="header__links">
           <li className="header__link">
-            <a href="#about">about</a>
+            <a href="#about">{lang[lng]["about"]}</a>
           </li>
           <li className="header__link">
-            <a href="#skills">skills</a>
+            <a href="#skills">{lang[lng]["skills"]}</a>
           </li>
           <li className="header__link">
-            <a href="#languages">languages</a>
+            <a href="#languages">{lang[lng]["languages"]}</a>
           </li>
           <li className="header__link">
-            <a href="#education">education</a>
+            <a href="#education">{lang[lng]["education"]}</a>
           </li>
           <li className="header__link">
-            <a href="#courses">courses</a>
+            <a href="#courses">{lang[lng]["courses"]}</a>
           </li>
           <li className="header__link">
-            <a href="#projects">projects</a>
+            <a href="#projects">{lang[lng]["projects"]}</a>
           </li>
         </ul>
       </nav>
       <ul className="header__right">
         <li className="header__ru">
-          <a href="">ru</a>
+          {lng == trans.ru ? <div>ru</div> : <a onClick={setRu}>ru</a>}
         </li>
         <li className="header__en">
-          <a href="">en</a>
+          {lng == trans.en ? <div>en</div> : <a onClick={setEn}>en</a>}
         </li>
         <button className="header__print"></button>
       </ul>
