@@ -1,0 +1,50 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, .9);
+  background: url(../../../assets/img/skills-bg.jpg) no-repeat center;
+  background-size: cover;
+
+  &__title {
+    margin: 53px auto 67px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 27px 32px;
+    margin: 0 36px 112px 46px;
+  }
+
+  &__item {
+    position: relative;
+    box-sizing: border-box;
+    width: 133px;
+    height: 23px;
+    padding-left: 24px;
+    border: 1px solid rgba(255, 255, 255, .24);
+    transition: all .2s;
+
+    &:hover {
+      cursor: default;
+      transform: scale(1.1);
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    height: 33px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    left: -12px;
+    top: -6px;
+  }
+
+  &__text {
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+  }
+}
