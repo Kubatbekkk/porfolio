@@ -1,4 +1,4 @@
-.skills {
+.languages {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6,54 +6,93 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: rgba(255, 255, 255, 0.9);
-  background: url(../../../assets/img/skills-bg.jpg) no-repeat center;
-  background-size: cover;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 77px 36px 125px;
+  background: -o-linear-gradient(343.13deg, #E5F7D7 13.85%, #ECFFEE 96.45%);
+  background: linear-gradient(106.87deg, #E5F7D7 13.85%, #ECFFEE 96.45%);
 }
-.skills__title {
-  margin: 53px auto 67px;
+.languages__title {
+  margin-bottom: 84px;
+  color: rgba(0, 0, 0, 0.9490196078);
 }
-.skills__list {
+.languages__list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 26px 62px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+.languages__lang {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.9490196078);
+}
+.languages__level {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.9490196078);
+}
+.languages__points {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 27px 32px;
-  margin: 0 36px 112px 46px;
+  gap: 10px;
+  -ms-flex-item-align: center;
+      align-self: center;
 }
-.skills__item {
-  position: relative;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  width: 133px;
-  height: 23px;
-  padding-left: 24px;
-  border: 1px solid rgba(255, 255, 255, 0.24);
+.languages__point {
+  width: 31px;
+  height: 31px;
+  background-color: rgba(226, 225, 225, 0.53);
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  border-radius: 50%;
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
 }
-.skills__item:hover {
-  cursor: default;
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
+.languages__point_check {
+  background: #6BD11A;
+  border: 1px solid rgba(19, 19, 19, 0.79);
 }
-.skills__icon {
-  position: absolute;
-  height: 33px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-  left: -12px;
-  top: -6px;
+.languages__point:hover {
+  background: #6ce607;
+  border: 1px solid rgba(19, 19, 19, 0.79);
+  -webkit-transform: scale(1.15);
+      -ms-transform: scale(1.15);
+          transform: scale(1.15);
 }
-.skills__text {
-  font-weight: 600;
-  line-height: 19px;
-  text-align: center;
+@media screen and (max-width: 960px) {
+  .languages {
+    padding: 77px 36px 70px;
+  }
+  .languages__title {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .languages__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-right: auto;
+    gap: 0;
+  }
+  .languages__level {
+    margin: -8px 0 13px;
+  }
+  .languages__points {
+    margin-bottom: 55px;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
 }
