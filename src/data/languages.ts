@@ -6,12 +6,12 @@ const languages = [
   },
   {
     name: 'Russian',
-    level: 'native speaker',
+    level: 'near-native',
     points: 6
   },
   {
     name: 'English',
-    level: 'upper-intermediate (B1)',
+    level: 'upper-intermediate (B2)',
     points: 4
   },
 ]

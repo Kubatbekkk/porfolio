@@ -9,7 +9,7 @@ const Languages = () => {
 
   return (
     <section className='languages' id='languages'>
-      <h3 className='languages__title'>languages</h3>
+      <h3 className='languages__title'>{lang[lng]["languages"]}</h3>
       <div className="languages__list">
         {
           languages.map((language, i) => (
