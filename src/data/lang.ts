@@ -27,7 +27,10 @@ const privateLang = {
     "The Rolling Scopes School": "The Rolling Scopes School",
     "Kyrgyz Economic University": "Kyrgyz Economic University",
     "JS/Front-end": "JS/Front-end",
-    "Information Technology": "Information Technology"
+    "Information Technology": "Information Technology",
+
+    "completed": "completed",
+    "certificate is pending...": "certificate is pending..."
   } as any,
   ru: {
     "contacts": "контакты",
@@ -57,7 +60,10 @@ const privateLang = {
     "The Rolling Scopes School": "The Rolling Scopes School",
     "Kyrgyz Economic University": "Кыргызский Экономический Университет",
     "JS/Front-end": "JS/Front-end",
-    "Information Technology": "Информационные технологии"
+    "Information Technology": "Информационные технологии",
+
+    "completed": "завершен",
+    "certificate is pending...": "ожидается выдача..."
   } as any
 }
 

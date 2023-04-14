@@ -4,6 +4,7 @@ import About from '../about'
 import Skills from '../skills'
 import Languages from '../languages'
 import Education from '../education'
+import Courses from '../courses'
 
 const Main = () => {
   return (
@@ -14,7 +15,7 @@ const Main = () => {
       <Languages />
       <div className="two-blocks">
         <Education />
-        {/* <Courses /> */}
+        <Courses />
       </div>
     </>
   )

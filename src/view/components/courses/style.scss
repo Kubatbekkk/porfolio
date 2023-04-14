@@ -1,0 +1,151 @@
+.courses {
+  display: flex;
+  flex-direction: column;
+  color: rgba(0, 0, 0, 0.69);
+  margin-top: 88px;
+
+  &__title {
+    margin-bottom: 51px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 44px;
+    margin: 0 36px 76px;
+  }
+
+  &__item {
+    transition: all .2s;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.05);
+
+      .courses__description {
+        color: rgba(0, 0, 0, 0.89);
+      }
+    }
+  }
+
+  &__picture {
+    width: 340px;
+    min-width: 340px;
+    height: 241px;
+    min-height: 241px;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:rgba(0, 0, 0, 0.52);
+  }
+
+  &__description {
+    margin-top: 14px;
+    color: rgba(0, 0, 0, 0.69);
+  }
+
+  &__where {
+    max-width: 340px;
+    margin-bottom: 18px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+  }
+
+  &__profession {
+    max-width: 340px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+  }
+
+  &__no-title {
+    margin-top: auto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: uppercase;
+  }
+
+  &__no-description {
+    margin-bottom: auto;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38px;
+  }
+
+  @media screen and (max-width: 960px) {
+    &__title {
+      align-self: flex-start;
+      margin-left: 36px;
+    }
+
+    &__list {
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+
+    &__item {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    &__item-no {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__description {
+      width: auto;
+      margin: auto 0;
+    }
+
+    &__where {
+      max-width: 100%;
+      text-align: right;
+    }
+
+    &__profession {
+      max-width: 100%;
+      text-align: right;
+    }
+  }
+
+  @media screen and (max-width: 740px) {
+    &__title {
+      align-self: center;
+      margin-left: 0;
+    }
+
+    &__list {
+      align-items: center;
+      gap: 73px;
+    }
+
+    &__item, &__item-no {
+      flex-direction: column;
+    }
+
+    &__description {
+      max-width: 340px;
+      margin: auto 0;
+    }
+
+    &__where {
+      margin-bottom: 4px;
+      font-size: 26px;
+      line-height: 31px;
+      text-align: center;
+    }
+
+    &__profession {
+      text-align: center;
+      font-size: 22px;
+      line-height: 26px;
+    }
+  }
+}
