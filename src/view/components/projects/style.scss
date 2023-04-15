@@ -1,0 +1,216 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  padding: 77px 36px 172px;
+  background: linear-gradient(106.87deg, #E0FFFB 13.85%, #A8DAFF 96.45%);
+
+
+  // .projects__title
+  &__title {
+    margin-bottom: 77px;
+    color: #000000f2;
+  }
+
+  // .projects__list
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+  }
+
+  // .projects__screenshot
+  &__screenshot {
+    width: 520px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  // .projects__info
+  &__info {
+    width: calc(100% - 48px);
+    height: calc(100% - 48px);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),;
+    top: 0;
+    opacity: 0;
+    transition: all 0.4s;
+  }
+
+  // .projects__name
+  &__name {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 0.89);
+  }
+
+  // .projects__description
+  &__description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.89);
+  }
+
+  // .projects__github-wrapper
+  &__github-wrapper {
+    overflow: hidden;
+    position: relative;
+  }
+
+  // .projects__github-icon
+  &__github-icon {
+    width: 46px;
+    height: 46px;
+    background: url(../../../assets/svg/github-proj.svg);
+  }
+
+  // .projects__github-url
+  &__github-url {
+    position: relative;
+    left: calc(102% + 8px);
+    padding: 0 8px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.95);
+    transition: all 0.4s;
+  }
+
+  // .projects__github
+  &__github {
+    display: flex;
+    flex-direction: row-reverse;
+    width: max-content;
+    margin-left: auto;
+    justify-self: flex-end;
+    align-items: center;
+    margin-top: auto;
+    opacity: 0.8;
+    transition: all 0.4s;
+
+    &:hover {
+      opacity: 1;
+
+      .projects__github-url {
+        left: 0;
+      }
+    }
+  }
+
+  // .projects__item
+  &__item {
+    position: relative;
+    width: 520px;
+    height: 320px;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    transition: 0.5s -webkit-filter linear;
+    cursor: pointer;
+
+    &:hover {
+      .projects__info {
+        opacity: 1;
+      }
+      .projects__screenshot {
+        filter: blur(5px);
+      }
+    }
+  }
+
+  @media screen and (max-width: 740px) {
+    padding: 77px 20px 172px;
+
+    &__list {
+      gap: 130px;
+    }
+
+    &__item {
+      overflow: visible;
+    }
+
+    &__github {
+      opacity: 1;
+      position: relative;
+      bottom: -76px;
+    }
+
+    &__github-url {
+      left: 0;
+      color: #455C68;
+    }
+
+    &__github-icon {
+      background: url(../../../assets/svg/github-proj-black.svg);
+    }
+
+    &__info {
+      opacity: 1;
+      background: transparent;
+    }
+
+    &__name {
+      position: relative;
+      top: -68px;
+      color: #455C68;
+    }
+
+    &__item:hover {
+      .projects__screenshot {
+        filter: none;
+      }
+    }
+
+    &__description {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 560px) {
+    &__name {
+      top: -56px;
+    }
+
+    &__github {
+      bottom: -62px;
+    }
+
+    // 0.615384615384615
+    &__item {
+      width: calc(100vw - 60px);
+      height: calc((100vw - 60px) * 0.615384615384615);
+    }
+
+    &__screenshot {
+      width: calc(100vw - 60px);
+      height: calc((100vw - 60px) * 0.615384615384615);
+      background-position: center;
+      background-size: contain;
+    }
+
+    &__name {
+      margin-bottom: 24px;
+      font-size: 24px;
+      line-height: 24px;
+    }
+
+    &__github-icon {
+      width: 32px;
+      height: 32px;
+      background-size: contain;
+    }
+
+    &__github-url {
+      font-size: 16px;
+    }
+  }
+}

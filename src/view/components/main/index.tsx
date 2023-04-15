@@ -5,6 +5,7 @@ import Skills from '../skills'
 import Languages from '../languages'
 import Education from '../education'
 import Courses from '../courses'
+import Projects from '../projects'
 
 const Main = () => {
   return (
@@ -17,6 +18,7 @@ const Main = () => {
         <Education />
         <Courses />
       </div>
+      <Projects />
     </>
   )
 }

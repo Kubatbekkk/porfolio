@@ -30,7 +30,30 @@ const privateLang = {
     "Information Technology": "Information Technology",
 
     "completed": "completed",
-    "certificate is pending...": "certificate is pending..."
+    "certificate is pending...": "certificate is pending...",
+
+    "PetStory Online": "PetStory Online",
+    "Tags": "Fifteen Puzzle Game",
+    "DashBoard": "DashBoard",
+    "Songbird": "Songbird",
+    "Online Store": "Online Store",
+    "Gaming Zone": "Gaming Zone",
+
+    "PetStory Online Desc": "<span>Adaptive site layout</span> (up to 320px) for an online zoo, there are About and Donate pages. Implemented: carousel, scrolling comments, burger menu and modal window with comments in the mobile version, used <span>vanilla JavaScript</span> (without libraries), HTML, CSS.",
+
+    "Tags Desc": "Implementation of <span>\"Fifteen Puzzle Game\"</span>, additionally implemented saving the game to localStorage and loading previously saved game, 6 game levels. The whole game is written in <span>vanilla JavaScript</span> (without libraries) according to the SPA, without using HTML tags the body tag.",
+
+    "Dashboard Desc": "This project is a React Admin Dashboard that I built using various libraries including Material UI, Nivo Charts, Formik, Yup, FullCalendar, and Data Grid. It features Light and Dark Modes, 4 different types of charts, 3 pages with distinct data tables, a FAQ page, a form page, and integration with a calendar. I consider this to be a significant portfolio project that showcases my skills in building complex applications with React.",
+
+    "Songbird Desc": "A simple <span>quiz game </span> for guessing the singing of birds, additionally implemented a gallery of all the birds available in the game. The whole game is written in <span>vanilla JavaScript</span> (without libraries) according to the SPA, without using HTML tags the body tag.",
+
+    "Online Store Desc": "<span>Team development</span> with other one developer. Test online store. There are implemented: filters, search, adding/removing items into/from the basket, fake-purchase, etc. The application is written in <span>vanilla TypeScript</span> (without libraries, Any type and JavaScript) according to the <span>SPA.</span>",
+
+    "RSKanban Desc": "<span>Collaborative development</span> in a team of 3 people. A small application similar to a Kanban board was developed. The entire front-end was written using the <span>React</span> library and <span>TypeScript</span>. <span>Firebase</span> was used for the back-end. Although the project was a team effort, most of the work was done by me due to the lower skill level of my teammates.",
+
+    "PetStory Online Short Desc": "<span>Adaptive site layout</span> up to 320px. JavaScript, HTML, CSS.",
+    "Tags Short Desc": "<span>Fifteen Puzzle Game</span> with 6 game levels and saving. JavaScript (SPA), CSS.",
+    "Gaming Zone Short Desc": "<span>Application with games</span>, co-development. React, TypeScript, Express.",
   } as any,
   ru: {
     "contacts": "контакты",
@@ -63,7 +86,29 @@ const privateLang = {
     "Information Technology": "Информационные технологии",
 
     "completed": "завершен",
-    "certificate is pending...": "ожидается выдача..."
+    "certificate is pending...": "ожидается выдача...",
+
+    "PetStory Online": "PetStory Online",
+    "Tags": "Пятнашки",
+    "DashBoard": "DashBoard",
+    "Songbird": "Songbird",
+    "Online Store": "Online Store",
+    "Gaming Zone": "Gaming Zone",
+
+    "PetStory Online Desc": "<span>Адаптивная верстка</span> сайта (до 320px) для онлайн зоопарка, имеются страниц <span>About</span> и <span>Donate</span>. Реализованы: карусель, прокрутка комментариев, бургер меню и модальное окно с комментариями в мобильной версии, использован <span>чистый JavaScript</span> (без дополнительных библиотек), HTML, CSS.",
+
+    "Tags Desc": "Реализация игры <span>\"Пятнашки\"</span>, дополнительно реализовано сохранение игры в localStorage и загрузка ранее сохраненной игры, 6 уровней сложности. Вся игра написана на <span>чистом JavaScript</span> (без дополнительных библиотек) по принципу <span>SPA</span>, без использования HTML тэгов внутри тэга body.",
+
+    "Dashboard Desc": "React Admin Dashboard, который я создал, используя различные библиотеки, в том числе Material UI, Nivo Charts, Formik, Yup, FullCalendar и Data Grid. Он включает светлую и темную темы, 4 различных типа графиков, 3 страницы с различными таблицами данных, страницу FAQ, страницу формы и интеграцию с календарем. Я считаю, что это значительный проект в моем портфолио, который демонстрирует мои навыки создания сложных приложений с помощью React.",
+
+    "Songbird Desc": "Простая <span>игра-викторина</span> на угадывание пения птиц, дополнительно реализованная галерея всех птиц, имеющихся в игре. Вся игра написана на <span>чистом JavaScript</span> (без дополнительных библиотек) по принципу <span>SPA</span>, без использования HTML тэгов внутри тэга body.",
+
+    "Online Store Desc": "<span>Совместная разработка</span> в команде из 2-х человек. Тестовый <span>интернет-магазин</span>, реализованы фильтры, поиск, добавление/удаление из корзины товаров, псевдо-покупка и др. Приложение написано на <span>чистом TypeScript</span> (без дополнительных библиотек, универсального типа Any и JavaScript) по принципу <span>SPA</span>, без использования HTML тэгов внутри тэга body.",
+
+    "RSKanban Desc": "<span>Совместная разработка</span> в команде из 3-х человек. Небольшое приложение наподобие kanban доски. Вся front-end часть написана с использование библиотеки <span>React</span> и <span>TypeScript</span>. Для <span>Back-end</span> был использован <span>Firebase</span>. Несмотря на то что проект был командным, почти вся работа была выполнена мной ввиду более низкого уровня сокомандников.",
+    "PetStory Online Short Desc": "<span>Адаптивная верстка</span> до 320px. JavaScript, HTML, CSS.",
+    "Tags Short Desc": "<span>Игра в пятнашки</span> с 6 уровнями и сохраниением. JavaScript (SPA), CSS.",
+    "Gaming Zone Short Desc": "<span>Приложение с играми</span>, совместная разработка. React, TypeScript, Express.",
   } as any
 }
 
