@@ -4,7 +4,7 @@ import lang from "../../../data/lang";
 import { useLangStore } from "../../../hooks/lang-state"
 import './style.scss'
 
-export const Education = () => {
+const Education = () => {
   const { lng } = useLangStore();
 
   return (
@@ -24,3 +24,5 @@ export const Education = () => {
     </section>
   )
 }
+
+export default Education
