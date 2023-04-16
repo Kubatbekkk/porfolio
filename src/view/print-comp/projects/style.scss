@@ -1,0 +1,42 @@
+@media print {
+  .p-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 4px 0;
+
+		&__item {
+      text-align: left;
+		}
+
+		&__name {
+      font-weight: 800;
+		}
+
+		&__desc {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 14px;
+      margin: 4px 0 5px;
+		}
+
+		&__deploy {
+      display: flex;
+      gap: 5px;
+		}
+
+		&__deploy-text {
+      font-weight: 300;
+		}
+
+		&__github {
+      display: flex;
+      gap: 5px;
+		}
+
+		&__github-text {
+      font-weight: 300;
+		}
+}
+
+}

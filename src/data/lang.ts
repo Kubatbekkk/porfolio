@@ -43,7 +43,7 @@ const privateLang = {
 
     "Tags Desc": "Implementation of <span>\"Fifteen Puzzle Game\"</span>, additionally implemented saving the game to localStorage and loading previously saved game, 6 game levels. The whole game is written in <span>vanilla JavaScript</span> (without libraries) according to the SPA, without using HTML tags the body tag.",
 
-    "Dashboard Desc": "This project is a React Admin Dashboard that I built using various libraries including Material UI, Nivo Charts, Formik, Yup, FullCalendar, and Data Grid. It features Light and Dark Modes, 4 different types of charts, 3 pages with distinct data tables, a FAQ page, a form page, and integration with a calendar. I consider this to be a significant portfolio project that showcases my skills in building complex applications with React.",
+    "Dashboard Desc": "This project is a React Admin Dashboard that I built using various libraries including Material UI, Nivo Charts, Formik, Yup, FullCalendar, and Data Grid. It features Light and Dark Modes, 4 different types of charts, 3 pages with distinct data tables, a FAQ page, a form page, and integration with a calendar.",
 
     "Songbird Desc": "A simple <span>quiz game </span> for guessing the singing of birds, additionally implemented a gallery of all the birds available in the game. The whole game is written in <span>vanilla JavaScript</span> (without libraries) according to the SPA, without using HTML tags the body tag.",
 
@@ -53,7 +53,7 @@ const privateLang = {
 
     "PetStory Online Short Desc": "<span>Adaptive site layout</span> up to 320px. JavaScript, HTML, CSS.",
     "Tags Short Desc": "<span>Fifteen Puzzle Game</span> with 6 game levels and saving. JavaScript (SPA), CSS.",
-    "Gaming Zone Short Desc": "<span>Application with games</span>, co-development. React, TypeScript, Express.",
+    "Kanban Short Desc": "<span>Kanban Application </span>, co-development. React, TypeScript, Firebase.",
   } as any,
   ru: {
     "contacts": "контакты",
@@ -99,7 +99,7 @@ const privateLang = {
 
     "Tags Desc": "Реализация игры <span>\"Пятнашки\"</span>, дополнительно реализовано сохранение игры в localStorage и загрузка ранее сохраненной игры, 6 уровней сложности. Вся игра написана на <span>чистом JavaScript</span> (без дополнительных библиотек) по принципу <span>SPA</span>, без использования HTML тэгов внутри тэга body.",
 
-    "Dashboard Desc": "React Admin Dashboard, который я создал, используя различные библиотеки, в том числе Material UI, Nivo Charts, Formik, Yup, FullCalendar и Data Grid. Он включает светлую и темную темы, 4 различных типа графиков, 3 страницы с различными таблицами данных, страницу FAQ, страницу формы и интеграцию с календарем. Я считаю, что это значительный проект в моем портфолио, который демонстрирует мои навыки создания сложных приложений с помощью React.",
+    "Dashboard Desc": "React Admin Dashboard, который я создал, используя различные библиотеки, в том числе Material UI, Nivo Charts, Formik, Yup, FullCalendar и Data Grid. Он включает светлую и темную темы, 4 различных типа графиков, 3 страницы с различными таблицами данных, страницу FAQ, страницу формы и интеграцию с календарем.",
 
     "Songbird Desc": "Простая <span>игра-викторина</span> на угадывание пения птиц, дополнительно реализованная галерея всех птиц, имеющихся в игре. Вся игра написана на <span>чистом JavaScript</span> (без дополнительных библиотек) по принципу <span>SPA</span>, без использования HTML тэгов внутри тэга body.",
 
@@ -108,7 +108,7 @@ const privateLang = {
     "RSKanban Desc": "<span>Совместная разработка</span> в команде из 3-х человек. Небольшое приложение наподобие kanban доски. Вся front-end часть написана с использование библиотеки <span>React</span> и <span>TypeScript</span>. Для <span>Back-end</span> был использован <span>Firebase</span>. Несмотря на то что проект был командным, почти вся работа была выполнена мной ввиду более низкого уровня сокомандников.",
     "PetStory Online Short Desc": "<span>Адаптивная верстка</span> до 320px. JavaScript, HTML, CSS.",
     "Tags Short Desc": "<span>Игра в пятнашки</span> с 6 уровнями и сохраниением. JavaScript (SPA), CSS.",
-    "Gaming Zone Short Desc": "<span>Приложение с играми</span>, совместная разработка. React, TypeScript, Express.",
+    "Kanban Short Desc": "<span>Канбан приложение</span>, совместная разработка. React, TypeScript, Firebase.",
   } as any
 }
 

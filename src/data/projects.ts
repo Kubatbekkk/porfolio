@@ -63,7 +63,7 @@ const projects = [
     url: "https://rskanban.netlify.app/",
     gitUrl: "https://github.com/Kubatbekkk/RS-Clone---Trello",
     forPrint: true,
-    shortDescription: "kanban style app with modal",
+    shortDescription: "Kanban Short Desc",
     screenshot: project6,
   },
 ]

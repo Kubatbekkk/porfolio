@@ -5,6 +5,7 @@ import './style.scss'
 import PAbout from '../about'
 import PEducation from '../education'
 import PCourses from '../courses'
+import PProjects from '../projects'
 
 const Right = () => {
   const { lng } = useLangStore()
@@ -34,6 +35,9 @@ const Right = () => {
       <div className="p-hr" />
       <div className="p-title-right">{lang[lng]["courses"]}</div>
       <PCourses />
+      <div className="p-hr" />
+      <div className="p-title-right">{lang[lng]["projects"]}</div>
+      <PProjects />
     </div>
   )
 }
