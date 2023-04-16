@@ -5,7 +5,7 @@ import Skills from '../skills'
 import Languages from '../languages'
 import Courses from '../courses'
 import Projects from '../projects'
-import { Education } from '../education'
+import { Education } from '../education/education'
 
 const Main = () => {
   return (
