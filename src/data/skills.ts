@@ -101,21 +101,21 @@ const skills = [
     iconBw: iconGitBw,
     colors: [ "#D18C83", "#EE513B" ],
   },
-  {
-    id: "node",
-    name: "Node.js",
-    icon: iconNode,
-    iconBw: iconNodeBw,
-    colors: [ "#425F20", "#83CD29" ],
-  },
-  {
-    id: "mongodb",
-    name: "MongoDB",
-    icon: iconMongo,
-    iconBw: iconMongoBw,
-    colors: [ "#8CBE8B", "#439945" ],
-    width: 20
-  },
+  // {
+  //   id: "node",
+  //   name: "Node.js",
+  //   icon: iconNode,
+  //   iconBw: iconNodeBw,
+  //   colors: [ "#425F20", "#83CD29" ],
+  // },
+  // {
+  //   id: "mongodb",
+  //   name: "MongoDB",
+  //   icon: iconMongo,
+  //   iconBw: iconMongoBw,
+  //   colors: [ "#8CBE8B", "#439945" ],
+  //   width: 20
+  // },
   {
     id: "react",
     name: "React",
@@ -146,14 +146,14 @@ const skills = [
     iconBw: iconCicdBw,
     colors: [ "#81AACB", "#3B94D9" ],
   },
-  {
-    id: "figma",
-    name: "Figma",
-    icon: iconFigma,
-    iconBw: iconFigmaBw,
-    colors: [ "#AA79E9", "#FF7262" ],
-    width: 24,
-  },
+  // {
+  //   id: "figma",
+  //   name: "Figma",
+  //   icon: iconFigma,
+  //   iconBw: iconFigmaBw,
+  //   colors: [ "#AA79E9", "#FF7262" ],
+  //   width: 24,
+  // },
   {
     id: "json",
     name: "JSON",

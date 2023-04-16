@@ -1,0 +1,198 @@
+.footer {
+  padding: 55px;
+  background: #151515;
+  display: flex;
+  flex-direction: column;
+
+  &__up {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 69px;
+  }
+
+  &__links {
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-transform: uppercase;
+
+    a {
+      color: rgba(255, 255, 255, 0.5);
+
+      &:hover {
+        color: rgba(141, 141, 239, 0.95);
+      }
+    }
+  }
+
+  &__right {
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+  }
+
+  &__ru {
+    a {
+      color:rgba(255, 255, 255, 0.5);
+      cursor: pointer;
+    }
+    div {
+      color:rgba(255, 255, 255, 0.95);
+      font-weight: 600;
+    }
+  }
+
+  &__en {
+    a {
+      color: rgba(255, 255, 255, 0.5);
+      cursor: pointer;
+    }
+    div {
+      color: rgba(255, 255, 255, 0.95);
+      font-weight: 600;
+    }
+  }
+
+  &__print {
+    width: 40px;
+    height: 36px;
+    background: url(../../../assets/svg/print-footer.svg) no-repeat center;
+    opacity: 0.44;
+    background-size: contain;
+    transition: all .2s;
+    border: none;
+
+    &:hover {
+      opacity: 0.6;
+      transform: scale(1.03);
+    }
+    &:active {
+      opacity: 1;
+    }
+  }
+
+  &__down {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-end;
+  }
+
+  &__contact-icon {
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.65;
+    transition: all .2s;
+  }
+
+  &__contact-text {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    margin: auto 0;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  &__contact-item {
+    a {
+      display: flex;
+      gap: 16px;
+    }
+
+    &:hover {
+      .footer__contact-text {
+        color: rgba(255, 255, 255, 0.95);
+      }
+      .footer__contact-icon {
+        opacity: 1;
+      }
+    }
+  }
+
+  &__rs-logo {
+    width: 97px;
+    height: 38px;
+    background: url(../../../assets/svg/rs-school.svg) no-repeat bottom;
+  }
+
+  &__left-mobile{
+    display: none;
+  }
+
+  &__bottom-mobile {
+    display: none;
+  }
+
+  @media screen and (max-width: 960px) {
+    padding: 35px;
+
+    &__left {
+      display: none;
+    }
+
+    &__up {
+      align-self: center;
+      margin-bottom: 41px;
+    }
+
+    &__print {
+      display: none;
+    }
+
+    &__left-mobile {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__links {
+      flex-direction: column;
+      font-size: 18px;
+      line-height: 21px;
+      text-align: right;
+      gap: 14px;
+    }
+
+    &__rs-logo {
+      display: none;
+    }
+
+    &__bottom-mobile {
+      display: flex;
+      margin-top: 61px;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    &__rs-logo-mobile {
+      width: 97px;
+      height: 38px;
+      background: url(../../../assets/svg/rs-school.svg) no-repeat bottom;
+    }
+  }
+
+  @media screen and (max-width: 740px) {
+    &__left-mobile {
+      display: none;
+    }
+
+    &__bottom-mobile {
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+    }
+  }
+}
