@@ -15,19 +15,19 @@ const Footer = () => {
               <a href="#about">{lang[lng]["about"]}</a>
             </li>
             <li className="footer__link">
-              <a href="#about">{lang[lng]["skills"]}</a>
+              <a href="#skills">{lang[lng]["skills"]}</a>
             </li>
             <li className="footer__link">
-              <a href="#about">{lang[lng]["languages"]}</a>
+              <a href="#languages">{lang[lng]["languages"]}</a>
             </li>
             <li className="footer__link">
-              <a href="#about">{lang[lng]["education"]}</a>
+              <a href="#education">{lang[lng]["education"]}</a>
             </li>
             <li className="footer__link">
-              <a href="#about">{lang[lng]["courses"]}</a>
+              <a href="#courses">{lang[lng]["courses"]}</a>
             </li>
             <li className="footer__link">
-              <a href="#about">{lang[lng]["projects"]}</a>
+              <a href="#projects">{lang[lng]["projects"]}</a>
             </li>
           </ul>
         </nav>
