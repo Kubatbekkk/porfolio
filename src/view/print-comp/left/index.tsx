@@ -3,6 +3,7 @@ import lang from '../../../data/lang'
 import { useLangStore } from '../../../hooks/lang-state'
 import PContacts from '../contacts'
 import PLanguages from '../languages'
+import PSkills from '../skills'
 import './style.scss'
 
 const Left = () => {
@@ -14,6 +15,8 @@ const Left = () => {
       <PContacts />
       <div className="p-title-left">{lang[lng]['languages']}</div>
       <PLanguages />
+      <div className="p-title-left">{lang[lng]['skills']}</div>
+      <PSkills />
     </div>
   )
 }

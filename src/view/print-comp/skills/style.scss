@@ -1,0 +1,18 @@
+@media print {
+  .p-skills {
+    display: flex;
+    flex-direction: column;
+    padding: 18px 8px 0;
+    gap: 4px;
+
+    &__item {
+      display: flex;
+      gap: 6px;
+    }
+
+    &__icon {
+      width: 16px;
+      height: 16px;
+    }
+  }
+}

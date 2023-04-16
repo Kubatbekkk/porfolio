@@ -11,8 +11,8 @@ const PContacts = () => {
               src={cont.iconBw}
               alt={cont.text}
               className="p-contacts__icon"
-              width="16px"
-              height="16px"
+              width="14px"
+              height="14px"
             />
             <div className="p-contacts__text">{cont.text}</div>
           </div>
