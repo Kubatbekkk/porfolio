@@ -1,0 +1,53 @@
+@media print {
+
+  .p-education {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+
+  // .p-education__item
+    &__item {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    // .p-education__year
+
+    &__year {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 14px;
+      text-align: left;
+    }
+
+    // .p-education__right
+
+    &__right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      text-align: right;
+      gap: 4px;
+    }
+
+    // .p-education__where
+
+    &__where {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 14px;
+      text-align: right;
+    }
+
+    // .p-education__prof
+
+    &__prof {
+      font-size: 13px;
+      line-height: 13px;
+      font-weight: 300;
+      text-align: right;
+    }
+}
+}

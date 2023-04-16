@@ -3,6 +3,7 @@ import { useLangStore } from '../../../hooks/lang-state'
 import locationIcon from '../../../assets/svg/location.svg'
 import './style.scss'
 import PAbout from '../about'
+import PEducation from '../education'
 
 const Right = () => {
   const { lng } = useLangStore()
@@ -26,6 +27,9 @@ const Right = () => {
         {lang[lng]["about"]}
       </div>
       <PAbout />
+      <div className="p-hr" />
+      <div className="p-title-right">{lang[lng]["education"]}</div>
+      <PEducation />
     </div>
   )
 }
