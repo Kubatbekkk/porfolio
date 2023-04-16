@@ -12,7 +12,7 @@ const privateLang = {
     "frontend developer": "frontend developer",
     "Kyrgyzstan, Bishkek": "Kyrgyzstan, Bishkek",
 
-    "about1": "I am a novice <span>frontend developer</span> with extensive experience in developing projects in the learning process.",
+    "about1": "I am a <span>frontend developer</span> with extensive experience in developing projects in the learning process.",
     "about2": "In the course of training, I have completed more than a dozen different works as part of <span>The Rolling Scopes School</span> training course.",
     "about3": "I have experience working with various <span>tools</span> and <span>libraries</span>, experience in team development, according to the <span>git-flow</span> methodology.",
     "about4": "My work is highly appreciated, among the other students and the mentors of the school.",
@@ -68,7 +68,7 @@ const privateLang = {
     "frontend developer": "frontend разработчик",
     "Kyrgyzstan, Bishkek": "Кыргызстан, Бишкек",
 
-    "about1": "Я начинающий <span>frontend разработчик</span> c большим опытом разработки учебных проектов.",
+    "about1": "Я <span>frontend разработчик</span> c большим опытом разработки учебных проектов.",
     "about2": "В процессе обучения мною было выполнено более десятка различных работ, в рамках учебного курса <span>Rolling Scopes School</span>.",
     "about3": "Имеется опыт работы с различными <span>инструментами</span> и <span>библиотеками</span>, опыт командной разработки, согласно методологии <span>git-flow</span>.",
     "about4": "Мои работы имеют высокую оценку, как среди других студентов, так и среди менторов школы.",
