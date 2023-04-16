@@ -1,0 +1,19 @@
+@media print {
+  .p-contacts {
+    display: flex;
+    flex-direction:column;
+    padding: 18px 8px;
+    gap: 4px;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+
+  &__icon {
+    width: 14px;
+    height: 14px;
+  }
+}
+}

@@ -39,7 +39,7 @@ const Header = () => {
         <li className="header__en">
           {lng == trans.en ? <div>en</div> : <a onClick={setEn}>en</a>}
         </li>
-        <button className="header__print"></button>
+        <button className="header__print" onClick={window.print}></button>
       </ul>
     </header>
   )

@@ -1,0 +1,25 @@
+@media print {
+  .p-left {
+    width: 33.5vw;
+    max-width: 230px;
+    min-height: 100vh;
+    background: #DCE6F2;
+  }
+
+  .p-photo {
+    margin: 10px auto;
+    border: .5px solid rgba(0, 0, 0, 0.489);
+    border-radius: 4px;
+  }
+
+  .p-title-left {
+    padding: 8px;
+    background-color: #1F4765;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 16px;
+    text-align: left;
+  }
+}

@@ -1,0 +1,9 @@
+.print-section {
+  display: none;
+}
+
+@media print {
+  .print-section {
+    display: flex;
+  }
+}
