@@ -12,7 +12,7 @@ interface LangStore {
 }
 
 export const useLangStore = create<LangStore>((set) => ({
-  lng: trans.ru,
+  lng: trans.en,
   setRu: () => set(() => ({lng: trans.ru})),
   setEn: () => set(() => ({lng: trans.en})),
 }))
