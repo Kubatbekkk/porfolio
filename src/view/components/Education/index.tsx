@@ -4,7 +4,7 @@ import lang from "../../../data/lang";
 import { useLangStore } from "../../../hooks/lang-state"
 import './style.scss'
 
-function Education() {
+const Education = () => {
   const { lng } = useLangStore();
 
   return (

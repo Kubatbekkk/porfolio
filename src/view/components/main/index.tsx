@@ -3,9 +3,9 @@ import Top from '../top'
 import About from '../about'
 import Skills from '../skills'
 import Languages from '../languages'
-import Education from '../education'
 import Courses from '../courses'
 import Projects from '../projects'
+import Education from '../education'
 
 const Main = () => {
   return (
